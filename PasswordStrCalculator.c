@@ -51,7 +51,7 @@ int main(void){
     initscr();
     
     char ch = 0;
-    int i = 0, x=9;
+    int i = 0, x=0;
     char pass[51];
     float bits = 0;
 
@@ -118,7 +118,7 @@ int main(void){
             while(1){
                 ch = getch();
                 if(ch == '0'){
-                    x = 9;
+                    x = 0;
                     break;
                 }
             }
@@ -140,7 +140,7 @@ int main(void){
             while(1){
                 ch = getch();
                 if(ch == '0'){
-                    x = 9;
+                    x = 0;
                     break;
                 }
             }
